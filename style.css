@@ -1,0 +1,254 @@
+/* Default CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed-width{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Default CSS End */
+
+/*  Header Section CSS Start */
+.header{
+    background-color: #22C3A3;
+    color: white;
+    padding: 20px 0;
+}
+.header-left{
+    width: 30%;
+    float: left;
+} 
+.header-right{
+    width: 70%;
+    float: right;
+}
+.header-right ul{
+    list-style: none;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 27px;
+    margin: right;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    color: black;
+}
+/*  Header Section CSS End */
+
+/* Banner Section CSS Start */
+.banner{
+    background-image: url(https://i.ibb.co/YpwQBs7/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    padding: 180px 0;
+} 
+.content{
+    text-align: center;
+    color: white;
+}
+.content h1 {
+    font-size: 45px;
+    padding: 20px 0;
+}
+.content h5{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.content a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.content a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #000;
+    border-radius: 5px;
+    z-index: -1;
+    transition: .5s;
+}
+.content a:hover::before{
+    width: 100%;
+}
+/* Banner Section CSS End */
+
+/* Service Section CSS Start */
+.service{
+    padding: 50px 0; 
+    text-align: center;
+}
+.service h2{
+    color: #525252;
+    font-size: 30px; 
+    margin: 20px 0;
+}
+.service p{
+    color: #979797;
+}
+.service-content{
+    margin-top: 50px;
+    border-bottom: 2px solid #22C3A3;
+}
+.service-box{
+    width: 25%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.service-box i{
+    color: #22C3A3;
+    font-size: 30px;
+}
+.service-box h3{
+    color: #5F5F5F;
+    font-size: 20px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.service-box p{
+    color: #979797;
+}
+/* Service Section CSS End */
+
+/* About Section CSS Start */
+.about{
+    padding: 50px;
+}
+.about h2{
+    color: #525252;
+    font-size: 30px; 
+    text-align: center;
+    margin: 20px 0;
+}
+.about p{
+    color: #979797;
+    width: 720px;
+    margin: 0 auto;
+}
+.about-content{
+    margin-top: 50px;
+}
+.about-left{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+} 
+.about-right{
+    width: 50%;
+    float: right;
+}
+.about-right h3{
+    color: #5F5F5F;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.about-right p{
+    width: 600px;
+} 
+/* About Section CSS End */
+
+/* Contact Section CSS Start */
+.contact{
+    padding: 50px 0;
+    background-color: #F6F6F6;
+}
+.contact h2{
+    color: #525252;
+    font-size: 30px; 
+    text-align: center;
+    margin: 20px 0;
+}
+.ppp{
+    color: #979797;
+    width: 720px;
+    margin: 0 auto;
+}
+.contact-content{
+    padding: 70px 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.content1{
+    width: 33%;
+    float: left; 
+}
+.content1 i{
+    color: aqua;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.content1 i:hover{
+    color: black;
+}
+.content1 p{
+    color: #979797;
+}
+/* Contact Section CSS End */
+
+/* Social Footer CSS Start */
+.social-menu{
+    background-color: #0DBF9B;
+}
+.social-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a {
+    color: white;
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 16px;
+    transition: .5s;
+}
+.social-menu ul li a:hover{
+    color: black;
+}
+/* Social Footer CSS End */
+
+/* Footer Section CSS Start */
+.footer{
+    background-color: #222222;
+    text-align: center;
+}
+.footer p{
+    color: #4C4C4C;
+    padding: 15px 0;
+}
+/* Footer Section CSS End */
